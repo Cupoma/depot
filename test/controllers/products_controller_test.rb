@@ -51,5 +51,8 @@ class ProductsControllerTest < ActionController::TestCase
     end
 
     assert_redirected_to products_path
+
+    assert_select
+
   end
 end
